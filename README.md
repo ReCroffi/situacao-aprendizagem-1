@@ -4,6 +4,9 @@
 
 ### Professor: Rodrigo Attique
 
+#### GitHub Pages
+![Link github pages](https://recroffi.github.io/situacao-aprendizagem-1/)
+
 ## O Projeto
 
 Elaboração de um blog pessoal, contendo 3 paginas em html interligadas. Utilizando também css e todos outros conceitos que foram passados durante o período de aulas.
