@@ -121,3 +121,14 @@ footer p {
   height: auto;
   margin-bottom: 24px;
 }
+
+img {
+  max-width: 35%;
+  max-height: 35%;
+}
+.img {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
