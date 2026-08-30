@@ -5,7 +5,7 @@
 ### Professor: Rodrigo Attique
 
 #### GitHub Pages
-![Link github pages](https://recroffi.github.io/situacao-aprendizagem-1/)
+[Link github pages](https://recroffi.github.io/situacao-aprendizagem-1/)
 
 ## O Projeto
 
