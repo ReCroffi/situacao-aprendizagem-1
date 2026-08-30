@@ -21,36 +21,83 @@
       </div>
     </header>
 
-    <main class="conteudo-sobre">
-      <div class="coluna-foto">
-        <div class="img-perfil">
-          <img id="Perfil" src="./assets/img/perfil.jpg" alt="Renan Croffi" />
+    <main>
+      <div class="conteudo-sobre">
+        <div class="coluna-foto">
+          <div class="img-perfil">
+            <img
+              id="Perfil"
+              src="./assets/img/perfil.jpg"
+              alt="Foto de perfil de Renan Croffi"
+            />
+          </div>
+        </div>
+
+        <div class="box-text">
+          <h2>Renan Croffi</h2>
+          <p>
+            Estudante de DSM na FATEC de Olímpia/SP e de Ciência de Dados na
+            Anhanguera, é um apaixonado por exatas, tendo passado por Física
+            (UNESP/RC) e Engenharia Elétrica (UNISANTA). Possui também uma
+            especialização em Mathematics for Machine Learning (Imperial College
+            London/COURSERA).
+          </p>
+          <p>
+            Curioso e sempre querendo aprender coisas novas, ingressou na FATEC
+            para reforçar os pontos que não são cobertos no curso de Ciência de
+            Dados.
+          </p>
+          <p>
+            Também é um amante de música, em especial rock, tendo como bandas
+            favoritas Rush, AC/DC e Dave Matthews Band.
+          </p>
         </div>
       </div>
 
-      <div class="box-text">
-        <h2>Renan Croffi</h2>
-        <p>
-          Estudante de DSM na FATEC de Olímpia/SP e de Ciência de Dados na
-          Anhanguera, é um apaixonado por exatas, tendo passado por Física
-          (UNESP/RC) e Engenharia Elétrica (UNISANTA). Possui também uma
-          especialização em Mathematics for Machine Learning (Imperial College
-          London/COURSERA).
-        </p>
-        <p>
-          Curioso e sempre querendo aprender coisas novas, ingressou na FATEC
-          para reforçar os pontos que não são cobertos no curso de Ciência de
-          Dados.
-        </p>
-        <p>
-          Também é um amante de música, em especial rock, tendo como bandas
-          favoritas Rush, AC/DC e Dave Matthews Band.
-        </p>
+      <section class="contato">
+        <h2>Entre em Contato</h2>
+
+        <form class="form-contato">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seuemail@exemplo.com"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="6"
+              placeholder="Escreva sua mensagem aqui..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
 
         <nav class="nav-voltar">
           <a href="index.html" class="voltar">Voltar para a página principal</a>
         </nav>
-      </div>
+      </section>
     </main>
 
     <footer>

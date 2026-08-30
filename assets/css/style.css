@@ -175,3 +175,81 @@ footer p {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.contato {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.contato h2 {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 32px;
+}
+
+.form-contato {
+  max-width: 640px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.campo label {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.campo input,
+.campo textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  color: #111111;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 12px;
+}
+
+.campo textarea {
+  resize: vertical;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border: 1px solid #111111;
+}
+
+.botao-enviar {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #111111;
+  border: none;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botao-enviar:hover {
+  background-color: #666666;
+}
+
+.lista-topicos {
+  padding-left: 20px;
+}
+
+.lista-topicos li {
+  margin-bottom: 12px;
+}
+
+code {
+  font-size: 15px;
+  background-color: #e5e5e5;
+  padding: 2px 4px;
+}
